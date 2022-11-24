@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script></script>
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <button class="between">How To Play?</button>
+
+      <div class="modal hidden">
+        <div class="whole-window">
+          <div class="div-1">
+            <div class="texts">
+              <span class="text"> How To Play?</span>
+              <button class="close-modal">&times;</button>
+            </div>
+          </div>
+
+          <div class="paragraphs">
+            <p id="para-1">
+              Guess a number between 1 and 20. For every wrong guess 1 point
+              will be deducted from the default score 20. For every wrong
+              attempt a message will tell you that whether your number is
+              greater or lesser than the secret number. You will lose the game
+              once the score becomes zero.
+            </p>
+            <p id="para-2">
+              So let's have a play and see, can you get the number in first very
+              attempt and have a 20!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="position">
+        <div class="overlay hidden"></div>
+        <button class="btn-again">Again!</button>
+        <div class="number"><h1 class="mehraj">?</h1></div>
+        <hr class="line" />
+      </div>
+    </header>
+    <main class="sections">
+      <section class="left">
+        <p id="above">(Between 1 and 20)</p>
+        <input type="number" class="guess" /> <br />
+        <br />
+        <button class="btn-check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">💭Start Guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇HighScore: <span class="highscore">0</span>
+        </p>
+        <span> <p class="devlope">Created By: Mehreen Aijaz</p></span>
+      </section>
+    </main>
+    <!-- <footer>Created By: <span>Mehreen Aijaz</span></footer> -->
+    <script src="script.js"></script>
+  </body>
+</html>

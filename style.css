@@ -1,0 +1,186 @@
+body {
+  font-family: sans-serif;
+  background-color: #222;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 50px;
+  color: white;
+  margin-top: 7%;
+}
+.btn-again {
+  outline: none;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  border-radius: 70px;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.between {
+  outline: none;
+  position: absolute;
+  top: 1rem;
+  right: 2%;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 12px;
+  font-weight: 900;
+}
+.number {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: white;
+  border: 2px;
+  border-radius: 60rem;
+  margin-top: 3%;
+}
+.number h1 {
+  color: black;
+  size: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.right .message {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 140px;
+}
+.message {
+  /*padding-left: 100px;*/
+  padding-bottom: 65px;
+}
+.right .label-score {
+  font-size: larger;
+  color: white;
+}
+.right .label-highscore {
+  font-size: larger;
+  color: white;
+}
+.btn-check {
+  border-radius: 70px;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 5%;
+  font-weight: 900;
+}
+.left {
+  margin-top: 160px;
+  margin-left: 80px;
+  padding: 10px;
+  width: 50%;
+  display: inline-block;
+}
+.rigth {
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+}
+#above {
+  color: white;
+  margin-bottom: 0;
+  padding-left: 38px;
+  font-weight: 900;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+}
+.line {
+  margin-top: -75px;
+  height: 10px;
+  color: white;
+  background-color: white;
+}
+.guess {
+  text-decoration-color: white;
+  color: white;
+  width: 33%;
+  height: 45%;
+  border-color: white;
+  border-radius: 15px;
+  /*border: 5px solid white;*/
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  size: 30;
+  background-color: #222;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.devlope {
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 410px;
+  text-decoration-line: underline;
+}
+/* Classes to make Modal Window  */
+.hidden {
+  display: none;
+}
+
+.whole-window {
+  margin-top: 0px;
+}
+.modal {
+  /* position: absolute; */
+  background-color: white;
+  width: 70%;
+  margin-left: 200px;
+  /* box-sizing: 2rem; */
+  border: 3px solid white;
+  border-radius: 20px;
+}
+.modal:nth-child(3) {
+  position: ;
+}
+
+.div-1 {
+  padding-top: 20px;
+  border: none;
+  margin-top: 0vh;
+  /* background-color: #5cb85c; */
+}
+
+.texts {
+  padding-left: 20px;
+  background-color: white;
+}
+.text {
+  color: red;
+  font-size: x-large;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.close-modal {
+  border: none;
+  color: black;
+  font-weight: 900;
+  background-color: white;
+  font-size: x-large;
+  margin-left: 845px;
+}
+.paragraphs {
+  background-color: white;
+  font-size: medium;
+  font-weight: 900;
+  padding-left: 10px;
+  font-family: serif;
+}
